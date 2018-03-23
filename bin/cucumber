@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+docker run \
+	--tty \
+	--volume "$(pwd)"/exe:/app/exe \
+	--volume "$(pwd)"/features:/app/features \
+	--volume "$(pwd)"/lib:/app/lib \
+	hello_aruba \
+	cucumber $@

@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'hello_aruba'
+
+if ARGV.include?("--version")
+  puts HelloAruba::VERSION
+else
+  puts "hello world!"
+end
