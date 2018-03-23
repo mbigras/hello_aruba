@@ -2,7 +2,7 @@
 
 > Build an image to use Aruba
 
-## Usage
+## Feature tests
 
 ```
 docker build --tag hello_aruba .
