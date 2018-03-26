@@ -5,7 +5,7 @@
 ## Feature tests
 
 ```
-docker build --tag hello_aruba .
+bin/build
 bin/cucumber
 ```
 
